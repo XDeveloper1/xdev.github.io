@@ -22,7 +22,8 @@ const Hero = (props) => (
         <Button
           onClick={(e) => {
             e.preventDefault();
-            window.open('https://drive.google.com/file/d/1eIrg0MCE_jFUJAcVjjyrq6oUsV74LS8v/view?usp=share_link', "_blank") || window.location.replace('https://drive.google.com/file/d/1eIrg0MCE_jFUJAcVjjyrq6oUsV74LS8v/view?usp=share_link');
+           window.location.href ="https://drive.google.com/file/d/1eIrg0MCE_jFUJAcVjjyrq6oUsV74LS8v/view?usp=share_link"
+            // window.open('https://drive.google.com/file/d/1eIrg0MCE_jFUJAcVjjyrq6oUsV74LS8v/view?usp=share_link', "_blank") || window.location.replace('https://drive.google.com/file/d/1eIrg0MCE_jFUJAcVjjyrq6oUsV74LS8v/view?usp=share_link');
          
           }}
         >
